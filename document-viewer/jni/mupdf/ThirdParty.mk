@@ -158,6 +158,7 @@ LOCAL_SRC_FILES := \
 	$(MY_ROOT)/thirdparty/freetype/src/base/ftbase.c \
 	$(MY_ROOT)/thirdparty/freetype/src/base/ftbbox.c \
 	$(MY_ROOT)/thirdparty/freetype/src/base/ftbitmap.c \
+	$(MY_ROOT)/thirdparty/freetype/src/base/ftdebug.c \
 	$(MY_ROOT)/thirdparty/freetype/src/base/ftfntfmt.c \
 	$(MY_ROOT)/thirdparty/freetype/src/base/ftgasp.c \
 	$(MY_ROOT)/thirdparty/freetype/src/base/ftglyph.c \
