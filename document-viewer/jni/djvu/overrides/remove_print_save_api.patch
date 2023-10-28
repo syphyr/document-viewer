@@ -1,11 +1,12 @@
 diff --git a/libdjvu/ddjvuapi.cpp b/libdjvu/ddjvuapi.cpp
-index 072db01..ee65130 100644
+index c6cecfe..6ba6a02 100644
 --- a/libdjvu/ddjvuapi.cpp
 +++ b/libdjvu/ddjvuapi.cpp
-@@ -2754,687 +2754,6 @@ ddjvu_runnablejob_s::stop()
+@@ -2760,687 +2760,6 @@ ddjvu_runnablejob_s::stop()
+ }
  
  
- // ----------------------------------------
+-// ----------------------------------------
 -// Printing
 -
 -struct DJVUNS ddjvu_printjob_s : public ddjvu_runnablejob_s
@@ -686,15 +687,14 @@ index 072db01..ee65130 100644
 -
 -
 -
--// ----------------------------------------
+ // ----------------------------------------
  // S-Expressions (generic)
  
- static miniexp_t
 diff --git a/libdjvu/ddjvuapi.h b/libdjvu/ddjvuapi.h
-index 4f9ed56..8769d16 100644
+index dcd1947..2dfb677 100644
 --- a/libdjvu/ddjvuapi.h
 +++ b/libdjvu/ddjvuapi.h
-@@ -1351,54 +1351,6 @@ struct ddjvu_message_progress_s {
+@@ -1354,54 +1354,6 @@ struct ddjvu_message_progress_s {
    int percent;
  };
  
