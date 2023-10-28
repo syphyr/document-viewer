@@ -79,8 +79,8 @@ LOCAL_SRC_FILES := \
 	$(MY_ROOT)/thirdparty/jbig2dec/jbig2_generic.c \
 	$(MY_ROOT)/thirdparty/jbig2dec/jbig2_halftone.c \
 	$(MY_ROOT)/thirdparty/jbig2dec/jbig2_huffman.c \
+	$(MY_ROOT)/thirdparty/jbig2dec/jbig2_hufftab.c \
 	$(MY_ROOT)/thirdparty/jbig2dec/jbig2_image.c \
-	$(MY_ROOT)/thirdparty/jbig2dec/jbig2_metadata.c \
 	$(MY_ROOT)/thirdparty/jbig2dec/jbig2_mmr.c \
 	$(MY_ROOT)/thirdparty/jbig2dec/jbig2_page.c \
 	$(MY_ROOT)/thirdparty/jbig2dec/jbig2_refinement.c \
